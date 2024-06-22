@@ -1,0 +1,41 @@
+.preview-frame {
+    width: 100%;
+    height: 500px;
+}
+
+.style-git {
+    fill: white;
+}
+
+
+textarea.code-input,
+textarea.code-output,
+#previewFrame {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 300px; /* Ajusta según sea necesario */
+    white-space: pre-wrap; /* Mantiene el formato de texto */
+}
+
+textarea.code-output {
+    font-weight: bold;
+    /* background-color: #f3f4f6; */ /* Color de fondo para el área de salida */
+}
+
+/* Estilos para resaltado de sintaxis HTML */
+.html-tag {
+    color: #008000; /* Color verde para etiquetas HTML */
+}
+
+.html-attribute {
+    color: #0000FF; /* Color azul para atributos HTML */
+}
+
+.html-value {
+    color: #FF4500; /* Color naranja para valores de atributos HTML */
+}
